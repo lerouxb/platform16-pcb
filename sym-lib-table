@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "audio-out")(type "KiCad")(uri "${KIPRJMOD}/audio-out.kicad_sym")(options "")(descr ""))
+  (lib (name "VSYS")(type "KiCad")(uri "${KIPRJMOD}/VSYS.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "audio-out-footprint")(type "KiCad")(uri "${KIPRJMOD}/audio-out-footprint.pretty")(options "")(descr ""))
+  (lib (name "potentiometer")(type "KiCad")(uri "${KIPRJMOD}/potentiometer.pretty")(options "")(descr ""))
+)
