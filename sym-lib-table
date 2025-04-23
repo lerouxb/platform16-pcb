@@ -1,5 +1,8 @@
 (sym_lib_table
   (version 7)
-  (lib (name "audio-out")(type "KiCad")(uri "${KIPRJMOD}/audio-out.kicad_sym")(options "")(descr ""))
   (lib (name "VSYS")(type "KiCad")(uri "${KIPRJMOD}/VSYS.kicad_sym")(options "")(descr ""))
+  (lib (name "PJ-320D-A")(type "KiCad")(uri "${KIPRJMOD}/PJ-320D-A.kicad_sym")(options "")(descr ""))
+  (lib (name "PAM8908JER")(type "KiCad")(uri "${KIPRJMOD}/PAM8908JER.kicad_sym")(options "")(descr ""))
+  (lib (name "AP7333-33SRG-7")(type "KiCad")(uri "${KIPRJMOD}/AP7333-33SRG-7.kicad_sym")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_RP2350")(type "KiCad")(uri "${KIPRJMOD}/MCU_RaspberryPi_RP2350.kicad_sym")(options "")(descr ""))
 )
