@@ -9075,6 +9075,12 @@
 		(uuid "542fcb09-87e0-4ad6-8489-a86fb3f1732c")
 	)
 	(junction
+		(at 370.84 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54b0b48b-bb48-4a21-896c-c157ed0a523f")
+	)
+	(junction
 		(at 201.93 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9139,6 +9145,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67a774b2-b320-4bcb-ac70-3658fd7c721f")
+	)
+	(junction
+		(at 381 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68cedeaf-d86f-4ad0-8c65-d17c4bba8f14")
 	)
 	(junction
 		(at 300.99 101.6)
@@ -15393,16 +15405,6 @@
 		)
 		(uuid "bb46f808-2962-4c3d-b432-8c5ddbea1d28")
 	)
-	(text "TODO: button, switch, addressable LED?"
-		(exclude_from_sim no)
-		(at 286.258 161.544 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ca183946-f310-478a-9bef-62a7d6d71d8b")
-	)
 	(text "12MHz Crystal"
 		(exclude_from_sim no)
 		(at 27.94 135.89 0)
@@ -20186,7 +20188,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C470448"
+		(property "LCSC" "C470449"
 			(at 312.42 196.85 0)
 			(effects
 				(font
@@ -23564,7 +23566,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C470448"
+		(property "LCSC" "C470449"
 			(at 340.36 234.95 0)
 			(effects
 				(font
@@ -25142,7 +25144,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C470448"
+		(property "LCSC" "C470449"
 			(at 298.45 196.85 0)
 			(effects
 				(font
@@ -25865,7 +25867,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C470448"
+		(property "LCSC" "C470449"
 			(at 312.42 209.55 0)
 			(effects
 				(font
@@ -26180,9 +26182,9 @@
 		(at 107.95 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "41e7fc98-f710-4e7b-9edd-4b52e20c76e5")
 		(property "Reference" "TP2"
@@ -26246,6 +26248,82 @@
 			(project "platform16"
 				(path "/8ea573ca-1d7e-409c-bbf9-736989e92912"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 381 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "426b65b3-7bc5-435a-8a0f-640527cb54dd")
+		(property "Reference" "TP4"
+			(at 383.54 46.2279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 383.54 48.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D4.0mm_Drill2.0mm"
+			(at 386.08 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 386.08 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 381 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "LINE R"
+			(at 381 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03030a6a-7634-48ff-a009-0861549e9c8a")
+		)
+		(instances
+			(project "platform16"
+				(path "/8ea573ca-1d7e-409c-bbf9-736989e92912"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -27375,7 +27453,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C470448"
+		(property "LCSC" "C470449"
 			(at 326.39 209.55 0)
 			(effects
 				(font
@@ -28377,7 +28455,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C470448"
+		(property "LCSC" "C470449"
 			(at 298.45 234.95 0)
 			(effects
 				(font
@@ -29467,7 +29545,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C470448"
+		(property "LCSC" "C470449"
 			(at 340.36 222.25 0)
 			(effects
 				(font
@@ -30334,7 +30412,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C470448"
+		(property "LCSC" "C470449"
 			(at 326.39 196.85 0)
 			(effects
 				(font
@@ -30560,7 +30638,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C470448"
+		(property "LCSC" "C470449"
 			(at 312.42 222.25 0)
 			(effects
 				(font
@@ -30786,7 +30864,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C470448"
+		(property "LCSC" "C470449"
 			(at 312.42 234.95 0)
 			(effects
 				(font
@@ -35250,7 +35328,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C470448"
+		(property "LCSC" "C470449"
 			(at 340.36 209.55 0)
 			(effects
 				(font
@@ -35476,7 +35554,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C470448"
+		(property "LCSC" "C470449"
 			(at 326.39 234.95 0)
 			(effects
 				(font
@@ -36537,7 +36615,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C470448"
+		(property "LCSC" "C470449"
 			(at 326.39 222.25 0)
 			(effects
 				(font
@@ -36703,6 +36781,82 @@
 			(project "platform"
 				(path "/8ea573ca-1d7e-409c-bbf9-736989e92912"
 					(reference "RV11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 370.84 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "8da2d552-e302-4a11-a312-65d5a8e574b1")
+		(property "Reference" "TP3"
+			(at 373.38 43.6879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 373.38 46.2279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D4.0mm_Drill2.0mm"
+			(at 375.92 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 375.92 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 370.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "LINE L"
+			(at 370.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74116fb5-6753-4d5d-8ed0-aa0b013be3eb")
+		)
+		(instances
+			(project "platform16"
+				(path "/8ea573ca-1d7e-409c-bbf9-736989e92912"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -37819,7 +37973,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C470448"
+		(property "LCSC" "C470449"
 			(at 298.45 222.25 0)
 			(effects
 				(font
@@ -38111,7 +38265,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C470448"
+		(property "LCSC" "C470449"
 			(at 298.45 209.55 0)
 			(effects
 				(font
@@ -39982,9 +40136,9 @@
 		(at 78.74 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ba040b27-7921-4326-ab89-20ff095c3bf4")
 		(property "Reference" "TP1"
@@ -41648,7 +41802,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C470448"
+		(property "LCSC" "C470449"
 			(at 340.36 196.85 0)
 			(effects
 				(font
