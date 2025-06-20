@@ -286,15 +286,15 @@
 		(roundrect_rratio 0.25)
 		(uuid "905e78df-9df9-44b7-ab8e-2ca633cc1164")
 	)
-	(model "${KIPRJMOD}/rk09l1140a2u.stp"
+	(model "/Users/lerouxb/Documents/KiCad/easyeda2kicad/easyeda2kicad.3dshapes/RES-ADJ-TH_RK09D1130C3C.wrl"
 		(offset
-			(xyz 0 0 7.5)
+			(xyz 0 0 14.75)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 180 0 180)
+			(xyz 0 0 0)
 		)
 	)
 )
