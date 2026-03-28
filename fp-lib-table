@@ -6,4 +6,5 @@
   (lib (name "AP7333-33SRG-7")(type "KiCad")(uri "${KIPRJMOD}/AP7333-33SRG-7.pretty")(options "")(descr ""))
   (lib (name "RP2350_60QFN_minimal")(type "KiCad")(uri "${KIPRJMOD}/RP2350_60QFN_minimal.pretty")(options "")(descr ""))
   (lib (name "SOIC_208MIL_WIN")(type "KiCad")(uri "${KIPRJMOD}/SOIC_208MIL_WIN.pretty")(options "")(descr ""))
+  (lib (name "EASYEDA2KICAD")(type "KiCad")(uri "${EASYEDA2KICAD}/easyeda2kicad.pretty")(options "")(descr ""))
 )

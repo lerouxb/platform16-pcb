@@ -5,4 +5,5 @@
   (lib (name "PAM8908JER")(type "KiCad")(uri "${KIPRJMOD}/PAM8908JER.kicad_sym")(options "")(descr ""))
   (lib (name "AP7333-33SRG-7")(type "KiCad")(uri "${KIPRJMOD}/AP7333-33SRG-7.kicad_sym")(options "")(descr ""))
   (lib (name "MCU_RaspberryPi_RP2350")(type "KiCad")(uri "${KIPRJMOD}/MCU_RaspberryPi_RP2350.kicad_sym")(options "")(descr ""))
+  (lib (name "easyeda2kicad")(type "KiCad")(uri "${EASYEDA2KICAD}/easyeda2kicad.kicad_sym")(options "")(descr ""))
 )
